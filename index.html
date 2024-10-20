@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cookie Clicker</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css" defer />
+    <script src="./script.js" defer ></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cookie Clicker! <span id="playerName"></span></h1>
+        <form id="form" >
+            <input id="username" value="" name="username" type="text" placeholder="name"  />
+            <input value="Submit" type="submit" placeholder="name" id="submit" />
+        </form>
+        <button id="playMusic"> 
+            <img width="50" height="45" src="https://t4.ftcdn.net/jpg/07/42/59/13/360_F_742591301_5kOrTbnqOuxb5IsaQ1ozJ4k7QzAwgWKm.jpg" />
+            <audio type="audio/mpeg" id="music" autoplay >
+                <source src="./the-beat-of-nature-122841.mp3" >
+            </audio>
+        </button>
+        
+    </header>
+    <main>
+        
+        <div>
+            <center>
+                <button id="cookie-btn">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/048/380/078/small_2x/chocolate-chip-cookie-on-transparent-background-png.png" />
+                </button>
+            </center>
+            <h2>Cookies: <span id="cookie-count">0</span> </h2>
+            <h2>Cookies per second: <span id="cps" >0</span> </h2>
+            <button id="repeat" >Start New Game</button>
+        </div>
+
+        <div id="upgradeSection">
+            <p id="Upgrades">Upgrades</p>
+            <!-- <button id="autoclicker"> AutoClicker </button>
+            <button id="grandma"> GrandMa </button> -->
+            <!-- <button> newUpgrade </button>
+            <button> newUpgrade </button>
+            <button> newUpgrade </button>
+            <button> newUpgrade </button>
+            <button> newUpgrade </button> -->
+        </div>
+    </main>
+    
+</body>
+</html>
